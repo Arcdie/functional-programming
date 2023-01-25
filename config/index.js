@@ -1,8 +1,7 @@
 module.exports = {
   app: {
+    port: 3000,
     host: 'localhost',
-    websocketPort: 3000,
-    port: process.env.APP_PORT,
-    environment: process.env.NODE_ENV,
+    environment: 'development',
   },
 };
